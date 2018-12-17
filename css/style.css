@@ -35,10 +35,12 @@ TOP PART
 
 .b-img{
     position: relative;
-    min-height: 530px;
+    
 }
 
 .b-img::after{
+    min-height: 530px;
+    background-repeat: no-repeat;
     position: absolute;
 	top: 0;
 	right: 0;
