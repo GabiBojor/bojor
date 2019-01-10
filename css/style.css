@@ -39,14 +39,15 @@ TOP PART
 }
 
 .b-img::after {
-    min-height: 530px;
+    min-height: 500px;
     position: absolute;
     top: 0;
     right: 0;
     content: '';
     left: auto;
     background: url('../images/banner-img.png')no-repeat;
-    width: 500px;
+    width: 30%;
+    background-size: cover;
 }
 
 /*------
